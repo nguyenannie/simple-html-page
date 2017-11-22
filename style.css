@@ -21,25 +21,29 @@ h1 {
 }
 
 nav {
-    margin-top: 0;
-    padding-right: 10%;
     background-color: #333333;
-    height: 40px;
+    height: 50px;
     background-image: url("nav-image.png");
     background-size: 50px 30px;
     background-repeat: no-repeat;
     background-position: 10% 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10% 0 10%;
 }
-.nav{
-    float: right;
-}
+
 a {
-    margin-top: 50px;
     color:#ff0099;
     text-align: center;
     vertical-align:middle;
     padding: 50px 20px 10px;
     text-decoration: underline;
+}
+
+.nav a{
+    margin-top:50px;
 }
 .horizontal_underscored_line{
     border-bottom: 2px  dashed black;
